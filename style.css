@@ -1,0 +1,320 @@
+
+
+
+
+
+
+
+
+
+ /**{
+    margin: 0;
+    padding: 0;
+ }
+ header
+/* header{
+    height: 300px;
+    text-align: center;
+    background-image: url(images/IMG_20220528_164407_987.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-color: rgb(184, 167, 189);
+    background-blend-mode: multiply;
+    animation: change 20s infinite linear;
+    background-size: cover;
+   }
+ @keyframes change{
+   0%{
+      background-image: url(images/IMG_20220528_164407_987.jpg);  
+   }
+   25%{
+      background-image: url(images/IMG_20220601_152156_503.jpg);
+   }
+   50%{
+      background-image: url(images/IMG_20220608_080320_336.jpg);
+   }
+   75%{
+      background-image: url(images/IMG_20220608_080320_336.jpg);
+   }
+   100%{
+      background-image: url(images/IMG_20220528_164407_987.jpg);   
+   }
+ } 
+nav{
+   background: linear-gradient(to top,black,rgb(56, 54, 54));
+}
+li{
+   width: 20%;
+   display: inline-block;
+}
+nav li a{
+   color: #fff;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+li:hover{
+   background: linear-gradient(to bottom, aqua,blue);
+   border: 2px solid firebrick;
+   border-radius: 10px;
+   font-weight: bold;    color: black;
+   cursor: pointer;
+}
+.main-topic{
+   font-family: 'Sacramento', cursive;
+   
+}
+.sub-topic{
+     font-family: 'Merriweather', serif;
+}
+.header{
+color: #fff;
+text-shadow: 1px 1px 3px rgb(46, 26, 26),
+             2px 2px 3px aqua;
+}
+.main-topic{
+font-size: 5rem;
+}
+.sub-topic{
+font-size: 3rem;
+}
+.transform{
+   position: absolute;
+   transform: rotateZ(45deg);
+   right: -180px;
+   top:54px;
+   animation: Come_in 1s linear forwards;
+}*/
+
+
+/*
+;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;*/
+
+#marquee{
+    font-size: large;
+    text-decoration: none;
+    scroll-behavior: auto;
+    font-style: italic;
+    
+  
+}
+
+
+/*main*/
+ main{
+   text-align: center;
+    color: rgb(32, 31, 31);
+}
+main img{
+   width: 100px;
+   height: 100px;
+   border-radius: 10px;
+   
+}
+p{
+   margin: 30px 20%;
+   font-size: 19px;
+   text-align: left;
+}
+.left{
+   float: right;
+   margin-right: 10px;
+}
+
+.center{
+    flex-direction: row;
+    margin-right: 10px;
+    height: 100px;
+    width: 200px ;
+}
+.right{
+   float: right;
+   margin-left: 10px;
+}
+.hr{
+   width: 50%;
+   border: none;
+   border-bottom: dotted 10px aqua;
+   margin: 100px auto;
+}
+h3{
+   margin: 20px auto;
+   text-transform: uppercase;
+}
+#bg-purple {
+   background-color: purple;
+   
+}
+
+#h3, #p{
+
+   color: white
+}
+
+
+
+/*footer*/
+
+footer {
+   text-align: right;
+   margin: 0px 0%;
+   font-size: 19px;
+   
+
+}
+footer div{
+   display: inline-block;
+   margin: 10px;
+}
+.nav{
+   float: left;
+}
+.contact{
+   margin-left: 30%;
+}
+footer a{
+   text-decoration: none;
+   color: black;
+   text-transform: capitalize;
+}
+footer a:hover{
+   width: 10em;
+   height: 5ex;
+   background-color: rgb(0, 170, 255);
+   border: 2px solid firebrick;
+   border-radius: 10px;
+   font-weight: bold;
+   color: black;
+   cursor: pointer;
+}
+.contact table{
+   color: rgb(10, 10, 10);
+}
+.info{
+   color: rgb(195, 192, 192);
+   text-align: right;
+   padding: 3px;
+}
+
+.form{
+   margin: 50px auto;
+   width: 400px;
+   box-shadow: 0 0 10px rgb(11, 138, 185);
+}
+fieldset{
+   display: block;
+   width: 390px;
+   margin: 5px auto;
+   border-radius: 10px;
+}
+input{
+   background-image: scr('images/');
+   width: 380px;
+   margin: 5px auto;
+   font-size: 15px;
+   border-radius: 10px;
+   border: 
+  
+}
+
+
+
+
+/*general*/
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+ /*footer */
+ form{
+   align: center;
+ }
+
+ body, html {
+   height: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ 
+ 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ 
+ /* Add styles to the form container */
+ .container {
+   position: absolute;
+   right: 0;
+   margin: 20px;
+   max-width: 300px;
+   padding: 16px;
+   background-color: white;
+ }
+ 
+ /* Full-width input fields */
+ input[type=text], input[type=password] {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   background:#dae5eb;
+   
+ }
+ 
+ input[type=text]:focus, input[type=password]:focus {
+   background-color:#ddd;
+   outline:none;
+ }
+ 
+ /* Set a style for the submit button */
+ .btnn {
+   background-color: #04AA6D;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+ }
+ .singup {
+   background-color: #2304aa;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+ }
+ #center, img. a{
+   text-align:center;
+   color:rgb(20, 187, 229);
+ }
+ .blue{
+   background-color: #2304aa;
+   color:white;
+   width: 100%;
+   height: 50px;
+ }
+ .success{
+   background-color: #04AA6D;
+   color: white;
+   width: 100%;
+   height: 50px;
+ }
+ 
+ 
+
+
+
+
+
+
+
