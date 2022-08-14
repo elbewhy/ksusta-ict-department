@@ -157,7 +157,7 @@ h3{
 /*footer*/
 
 footer {
-   text-align: right;
+   text-align: left;
    margin: 0px 0%;
    font-size: 19px;
    
@@ -190,6 +190,7 @@ footer a:hover{
 }
 .contact table{
    color: rgb(10, 10, 10);
+   position:center;
 }
 .info{
    color: rgb(195, 192, 192);
@@ -204,28 +205,15 @@ footer a:hover{
 }
 fieldset{
    display: block;
-   width: 390px;
+   max-width: 300px;
    margin: 5px auto;
    border-radius: 10px;
-}
-input{
-   background-image: scr('images/');
-   width: 380px;
-   margin: 5px auto;
-   font-size: 15px;
-   border-radius: 10px;
-   border: 
-  
 }
 
 
 
 
 /*general*/
-body{
-font-family: 'Montserrat', sans-serif;
-
-}
 
  /*footer */
  form{
@@ -251,7 +239,7 @@ font-family: 'Montserrat', sans-serif;
  
  /* Add styles to the form container */
  .container {
-   position: absolute;
+   position: center;
    right: 0;
    margin: 20px;
    max-width: 300px;
@@ -260,18 +248,19 @@ font-family: 'Montserrat', sans-serif;
  }
  
  /* Full-width input fields */
- input[type=text], input[type=password] {
+ input[type=text], input[type=password], input[type=email], input[type=tel], 
+ input[type=file]{
    width: 100%;
    padding: 15px;
-   margin: 5px 0 22px 0;
-   border: none;
+   margin: 5px 0 20px 0;
+   border:#04aa8c;
    background:#dae5eb;
    
  }
- 
- input[type=text]:focus, input[type=password]:focus {
-   background-color:#ddd;
-   outline:none;
+ input[type=text]:focus, input[type=password]:focus, 
+ input[type=email]:focus, input[type=tel]:focus{
+   background-color:#dad;
+   outline:#2304aa;
  }
  
  /* Set a style for the submit button */
