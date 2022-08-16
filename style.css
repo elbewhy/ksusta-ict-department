@@ -44,7 +44,7 @@ p{
 .hr{
    width: 50%;
    border: none;
-   border-bottom: dotted 10px rgb(18, 16, 16);
+   border-bottom: dotted 10px black;
    margin: 100px auto;
 }
 h3{
