@@ -21,13 +21,13 @@ main img{
    border-radius: 10px;
    
 }
-p{
+.p{
    margin: 30px 20%;
    font-size: 19px;
-   text-align: left;
+   text-align: center;
 }
 .left{
-   float: right;
+   float: center;
    margin-right: 10px;
 }
 
@@ -38,7 +38,7 @@ p{
     width: 200px ;
 }
 .right{
-   float: right;
+   float: center;
    margin-left: 10px;
 }
 .hr{
